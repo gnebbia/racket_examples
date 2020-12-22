@@ -1,0 +1,7 @@
+https://gitlab.com/racketeer/rcge-tut25/-/blob/master/rcge/embedding.rkt
+raco exe --orig-exe --embed-dlls --gui script.rkt
+
+
+--orig-exe should do the trick, also --gui if you plan on using the gui and if you use gui dynamically than ++lib racket/gui might be needed.
+
+
